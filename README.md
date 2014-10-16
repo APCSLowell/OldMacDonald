@@ -3,7 +3,7 @@ OldMacDonald
 
 
 Fork and clone down the OldMacDonald repository
-As you read through the assignment below, add code to your OldMacDonald program when you get to any instructions in italics
+As you read through the assignment below, add code to your OldMacDonald program when you get to any instructions in *italics*
 
 Background: Inheritance and Polymorphism
 ---------------------------------------- 
