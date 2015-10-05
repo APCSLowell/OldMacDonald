@@ -2,8 +2,7 @@ OldMacDonald
 ================
 
 
-Fork and clone down the OldMacDonald repository
-As you read through the assignment below, add code to your OldMacDonald program when you get to any instructions in *italics*
+Start by forking [this OldMacDonald repository](https://github.com/APCSLowell/OldMacDonald). As you read through the assignment below, add code to your OldMacDonald program when you get to any instructions in *italics*
 
 Background: Inheritance and Polymorphism
 ---------------------------------------- 
@@ -17,8 +16,7 @@ Old MacDonald had a farm that had several types of animals. Every animal shared 
   public String getType(); 
 }`   
  
-*Add the Animal interface to your OldMacDonald program after the closing curly brace of the `setup()` function.
-Run the program to make sure it compiles and runs.*
+*Complete the Animal interface in the `Animal.java` file. Run the program to make sure it compiles and runs.*
 
 Once we know what it takes to be an Animal, we can define new classes for the cow, chick and pig that implement the Animal interface. Here is a Cow class meeting the minimum requirements to be an Animal.
 
@@ -37,7 +35,7 @@ Once we know what it takes to be an Animal, we can define new classes for the co
      public String getType(){return myType;} 
 }` 
  
-*Add the Cow class below the closing curly brace of your Animal interface.
+*Add the Cow class to the `Cow.java` file.
 Run the program to make sure it compiles and runs.
 Implement classes for the chick and the pig.
 Add the following code to your `setup()` function, and run the program to verify your work so far. Make sure you create some chick and pig instances in `setup()`and check their sounds as well.*
@@ -47,7 +45,7 @@ Add the following code to your `setup()` function, and run the program to verify
     System.out.println(c.getType() + " goes " + c.getSound());  }  
 }` 
 
-*Now add the following Farm class to complete the farm and test all your animals. Make sure that it isn't inside any the curly braces of the other classes.*
+*Now add the following Farm class to the `Farm.java` and test all your animals. Make sure that it isn't inside any the curly braces of the other classes.*
 
 `class Farm  {     
    private Animal[] aBunchOfAnimals = new Animal[3];    
@@ -69,7 +67,7 @@ You will also have to modify your Farm class code to construct the Chick with tw
 
 Finally, it also came to pass that the cows get a personal name, like Elsie.
 
-*Create a new class, `NamedCow`, that extends the Cow class, adding a constructor, a field for the Cow's name, and a new function: `getName`.*
+*Create a new class, `NamedCow` in the `NamedCow.java`, that extends the Cow class, adding a constructor, a field for the Cow's name, and a new function: `getName`.*
 
 The final Farm code to exercise all your modifications is shown here:
   `class Farm  {     

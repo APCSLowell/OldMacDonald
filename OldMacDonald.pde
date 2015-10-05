@@ -1,6 +1,6 @@
-//your variable declarations here
+
 void setup()
 {
-	//your java code here
+	//your variable declarations here
 }
-//declare classes and the interface below
+
