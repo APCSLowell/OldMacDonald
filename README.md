@@ -91,5 +91,5 @@ The final Farm code to exercise all your modifications is shown here:
 What Did You Just Do?
 ---------------------
 So you don't miss it, make sure you understand what you just accomplished. Having an array of `Animal` objects and then having the `getSound()` function dynamically decide what sound to make is *polymorphism*. This is also known as late binding because it wasn't known until run-time that `aBunchOfAnimlas[1]`, for example, really had a `Chick` object. You started with an `interface` for an `Animal` and then used the keyword `implements` in making the three types of animals. Then you created a specialized version of the `Cow`, a `NamedCow`, using the keyword `extends`. This illustrates the concept of inheritance. The `NamedCow` had all the attributes and functions of the Cow and then added some: a new field and a new function to access the cow's name.
-Note that there is no web page for this assignment. Submit the url of your GitHub repository via the school loop drop box for the assignment. The url will have the form
+Note that there is no web page for this assignment, so you will push your code to the master branch with the command `git push origin master`. Submit the url of your GitHub repository via the school loop drop box for the assignment. The url will have the form
 http://github.com/ <your github username >/OldMacDonald
