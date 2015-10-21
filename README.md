@@ -38,8 +38,7 @@ class Cow implements Animal {
 ``` 
      
 *Add the Cow class to the `Cow.java` file.
-Run the program to make sure it compiles and runs.
-Implement classes for the chick and the pig.
+Implement classes for the chick and the pig. Run the program to make sure it compiles and runs.
 Add the following code to your `setup()` function in the `OldMacDonald.pde` file, and run the program to verify your work so far. Make sure you create some chick and pig instances in `setup()`and check their sounds as well.*
 ```    
 public void setup() {     
