@@ -46,7 +46,7 @@ public void setup() {
     System.out.println(c.getType() + " goes " + c.getSound());  }  
 }
 ```    
-*Now add the following Farm class to the `Farm.java` and test all your animals. Make sure that it isn't inside any the curly braces of the other classes.*
+*Now add the following Farm class to the `Farm.java` and test all your animals.*
 ```    
 class Farm  {     
    private Animal[] aBunchOfAnimals = new Animal[3];    
