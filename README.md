@@ -2,7 +2,7 @@ OldMacDonald
 ================
 
 
-Start by forking [this repository](https://github.com/APCSLowell/OldMacDonald). As you read through the assignment below, add code to your OldMacDonald program when you get to any instructions in *italics*.  You may find slides 132 - 183 on [OOP.pptx](https://drive.google.com/open?id=0Bz2ZkT6qWPYTN3NOQkh1eGR4Wmc") and [inheritance worksheet](https://drive.google.com/file/d/0Bz2ZkT6qWPYTOTllMzdiMzUtZTk3OC00YmZlLTk1MGMtOTFkNDU2MTQ3OWIx/view?usp=sharing) helpful. Note that there is no web page for this assignment, so you will be pushing your code to the master branch, not gh-pages. Use the git command `git push origin master`.
+Start by forking [this repository](https://github.com/APCSLowell/OldMacDonald). As you read through the assignment below, add code to your OldMacDonald program when you get to any instructions in *italics*.  You may find slides 132 - 183 on [OOP.pptx](https://drive.google.com/open?id=0Bz2ZkT6qWPYTN3NOQkh1eGR4Wmc") and the [inheritance worksheet](https://drive.google.com/file/d/0Bz2ZkT6qWPYTOTllMzdiMzUtZTk3OC00YmZlLTk1MGMtOTFkNDU2MTQ3OWIx/view?usp=sharing) helpful. Note that there is no web page for this assignment, so you will be pushing your code to the master branch, not gh-pages. Use the git command `git push origin master`.
 
 Background: Inheritance and Polymorphism
 ---------------------------------------- 
