@@ -1,4 +1,4 @@
-class Cow implements Animal 
+class Cow //implements Animal 
 {     
      //your code here
 }
