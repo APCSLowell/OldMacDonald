@@ -43,7 +43,7 @@ Add the following code to your `setup()` function in the `OldMacDonald.pde` file
 ```    
 public void setup() {     
     Cow c = new Cow("cow", "moo");   
-    System.out.println(c.getType() + " goes " + c.getSound());  }  
+    System.out.println(c.getType() + " goes " + c.getSound());    
 }
 ```    
 *Now add the following Farm class to the `Farm.java` and test all your animals.*
