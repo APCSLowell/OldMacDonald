@@ -1,6 +1,7 @@
 
 void setup()
 {
-	//your variable declarations here
+	//your variable declarations and
+	//System.out.println() statements here
 }
 
