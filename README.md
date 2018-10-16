@@ -49,8 +49,9 @@ public void setup() {
 *Now add the following Farm class to the `Farm.java` and test all your animals.*
 ```java    
 class Farm  {     
-   private Animal[] aBunchOfAnimals = new Animal[3];    
+   private Animal[] aBunchOfAnimals;    
    public Farm()     {       
+      aBunchOfAnimals = new Animal[3];
       aBunchOfAnimals[0] = new Cow("cow","moo");           
       aBunchOfAnimals[1] = new Chick("chick","cluck");       
       aBunchOfAnimals[2] = new Pig("pig","oink");    
