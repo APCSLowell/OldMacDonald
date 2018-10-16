@@ -70,7 +70,7 @@ You will also have to modify your Farm class code to construct the Chick with tw
 
 Finally, it also came to pass that the cows get a personal name, like Elsie.
 
-*Create a new class, `NamedCow` in the `NamedCow.java`, that extends the Cow class. `NamedCow` will need a 3 argument constructor with arguments for the Cow's name, type and sound and a new function: `getName`. For full credit, do NOT redefine or copy any functions or variables that `NamedCow` inherits from `Cow`*
+*Create a new class, `NamedCow` in the `NamedCow.java`, that extends the Cow class. `NamedCow` will need a member variable to store the name, a 3 argument constructor with arguments for the Cow's name, type and sound and a new function: `getName`. For full credit, do NOT redefine or copy any functions or variables that `NamedCow` inherits from `Cow`*
     
 The final Farm code to exercise all your modifications is shown here:
 ```java
