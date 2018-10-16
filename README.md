@@ -58,8 +58,8 @@ class Farm  {
    public void animalSounds()    {       
      for (int nI=0; nI < aBunchOfAnimals.length; nI++)       {          
        System.out.println( aBunchOfAnimals[nI].getType() + " goes " + aBunchOfAnimals[nI].getSound());       
-      }    
-    } 
+     }    
+   } 
 } 
 ```   
 *Now, change your code in `setup()` to create an new instance of type `Farm` and call its `animalSounds` function.*  
