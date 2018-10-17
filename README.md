@@ -2,7 +2,7 @@ OldMacDonald
 ================
 
 
-Start by forking and the cloning [this repository](https://github.com/APCSLowell/OldMacDonald). As you read through the assignment below, add code to your OldMacDonald program when you get to any instructions in *italics*.  You may find slides 53 - 130 on [OOP--Interfaces, Inheritance & Encapsulation](https://docs.google.com/presentation/d/1Eldw10Y6tP7Ru6pjaCcZPhm5vxjnKjVrWLB8qT5IiF0/edit?usp=sharing) and the [inheritance](https://drive.google.com/file/d/0Bz2ZkT6qWPYTOTllMzdiMzUtZTk3OC00YmZlLTk1MGMtOTFkNDU2MTQ3OWIx/view?usp=sharing) and [encapsulation](https://drive.google.com/open?id=0Bz2ZkT6qWPYTZDQ3NjFmMTctNTRlOS00NjAxLTg3YjQtZTMzMGVjYjA0YjA5) worksheets helpful. 
+Start by forking and the cloning [this repository](https://github.com/APCSLowell/OldMacDonald). As you read through the assignment below, add code to your OldMacDonald program when you get to any instructions in *italics*.  You may find slides 53 - 130 on [OOP--Interfaces, Inheritance & Encapsulation](https://docs.google.com/presentation/d/1Eldw10Y6tP7Ru6pjaCcZPhm5vxjnKjVrWLB8qT5IiF0/edit?usp=sharing) and the [encapsulation](https://drive.google.com/open?id=0Bz2ZkT6qWPYTZDQ3NjFmMTctNTRlOS00NjAxLTg3YjQtZTMzMGVjYjA0YjA5) worksheets helpful. 
 
 Background: Inheritance and Polymorphism
 ---------------------------------------- 
