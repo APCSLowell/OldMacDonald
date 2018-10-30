@@ -10,59 +10,19 @@ In this assignment we will use Old MacDonald's Farm to learn how `implements` an
 
 Defining an interface
 ---------------------
-Old MacDonald had a farm that had several types of animals. Every animal shared certain characteristics: they had a type (such as cow, chick or pig) and each made a sound (moo, cluck or oink). This interface defines those things required to be an animal on the farm.
-```java    
-interface Animal {    
-  public String getSound();        
-  public String getType(); 
-}  
-```        
+Old MacDonald had a farm that had several types of animals. Every animal shared certain characteristics: they had a type (such as cow, chick or pig) and each made a sound (moo, cluck or oink). This interface defines those things required to be an animal on the farm.   
+![Image 1](OldMac1.PNG)          
 *Complete the Animal interface in the `Animal.java` file. Run the program to make sure it compiles and runs.*
 
-Once we know what it takes to be an Animal, we can define new classes for the cow, chick and pig that implement the Animal interface. Here is a Cow class meeting the minimum requirements to be an Animal.
-```java     
-class Cow implements Animal {     
-     private String myType;     
-     private String mySound;      
-     public Cow(String type, String sound)     {         
-         myType = type;         
-         mySound = sound;     
-     }     
-     public Cow()     {         
-         myType = "unknown";         
-         mySound = "unknown";     
-     }      
-     public String getSound(){return mySound;}     
-     public String getType(){return myType;} 
-}
-``` 
+Once we know what it takes to be an Animal, we can define new classes for the cow, chick and pig that implement the Animal interface. Here is a Cow class meeting the minimum requirements to be an Animal.   
+![Image 2](OldMac2.PNG)    
      
 *Add the Cow class to the `Cow.java` file.
 Implement classes for the chick and the pig. Run the program to make sure it compiles and runs.
-Add the following code to your `setup()` function in the `OldMacDonald.pde` file, and run the program to verify your work so far. Make sure you create some chick and pig instances in `setup()`and check their sounds as well.*
-```java    
-public void setup() {     
-    Cow c = new Cow("cow", "moo");   
-    System.out.println(c.getType() + " goes " + c.getSound());    
-}
-```    
+Add the following code to your `setup()` function in the `OldMacDonald.pde` file, and run the program to verify your work so far. Make sure you create some chick and pig instances in `setup()`and check their sounds as well.*   
+![Image 3](OldMac3.PNG)        
 *Now add the following Farm class to the `Farm.java` and test all your animals.*
-```java    
-class Farm  {     
-   private Animal[] aBunchOfAnimals;    
-   public Farm()     {       
-      aBunchOfAnimals = new Animal[3];
-      aBunchOfAnimals[0] = new Cow("cow","moo");           
-      aBunchOfAnimals[1] = new Chick("chick","cluck");       
-      aBunchOfAnimals[2] = new Pig("pig","oink");    
-   }         
-   public void animalSounds()    {       
-     for (int nI=0; nI < aBunchOfAnimals.length; nI++)       {          
-       System.out.println( aBunchOfAnimals[nI].getType() + " goes " + aBunchOfAnimals[nI].getSound());       
-     }    
-   } 
-} 
-```   
+![Image 4](OldMac4.PNG)      
 *Now, change your code in `setup()` to create an new instance of type `Farm` and call its `animalSounds` function.*  
 
 It turns out that the chick is a little confused. Sometimes it makes one sound, when she is feeling childish, and another when she is feeling more grown up. Her two sounds are "cheep" and "cluck".
@@ -73,23 +33,8 @@ Finally, it also came to pass that the cows get a personal name, like Elsie.
 
 *Create a new class, `NamedCow` in the `NamedCow.java`, that extends the Cow class. `NamedCow` will need a member variable to store the name, a 3 argument constructor with arguments for the Cow's name, type and sound and a new accessor function: `getName`. For full credit `NamedCow` needs to be encapsulated, all members should be labeled `public` or `private`, do NOT redefine or copy any functions or variables that `NamedCow` inherits from `Cow`. You may want to change the member variables in `Cow` to `protected` instead of `private`*
     
-The final Farm code to exercise all your modifications is shown here:
-```java
-  class Farm  {     
-    private Animal[] aBunchOfAnimals = new Animal[3];    
-    public Farm()     {       
-       aBunchOfAnimals[0] = new NamedCow("cow","Elsie","moo");          
-       aBunchOfAnimals[1] = new Chick("chick","cheep","cluck");
-       aBunchOfAnimals[2] = new Pig("pig","oink");    
-    }     
-    public void animalSounds()    {
-      for (int nI=0; nI < aBunchOfAnimals.length; nI++) {             
-         System.out.println( aBunchOfAnimals[nI].getType() + " goes " + aBunchOfAnimals[nI].getSound() );       
-      }       
-      System.out.println( "The cow is known as " + ((NamedCow)aBunchOfAnimals[0]).getName() );    
-    } 
-}
-```    
+The final Farm code to exercise all your modifications is shown here:   
+![Image 5](OldMac6.PNG)       
 
 What Did You Just Do?
 ---------------------
